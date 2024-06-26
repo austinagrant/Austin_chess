@@ -8,3 +8,5 @@ Any ideas would be welcome
 If you are here you should be able to figure it out, run game.py and it should simulate some moves, not all the pieces are added and no check detection or anything.
 
 Not yet?
+
+Now?
