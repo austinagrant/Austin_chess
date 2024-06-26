@@ -7,8 +7,8 @@ Any ideas would be welcome
 
 If you are here you should be able to figure it out, run game.py and it should simulate some moves, not all the pieces are added and no check detection or anything.
 
-Not yet?
+Currently I am trying to figure out why it is running slow even only with 2 pieces, and make 1 move at a time, it is still really slow while the java version could have all the pieces at depth 6
+I am not sure why it is so slow, might be considering to many moves or maybe is not pruning
 
-Now?
-
-an now
+TODO:
+    2 piece per side @ depth 6
