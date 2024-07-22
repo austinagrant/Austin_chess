@@ -80,7 +80,7 @@ class Board():
             m.taken = self.piece_at(m.end_index, not to_move.white_team)
             if m.taken is None:
                 print(m, "\n", to_move.white_team, "\n", self)
-                [print(p, p.indices) for p in (self.black_pieces if to_move.white_team else self.white_team)]
+                [print(p, p.indices) for p in (self.black_pieces if to_move.white_team else self.white_pieces)]
             m.taken.do_move(m.end_index, 65)
             self.update_team_board(m.end_index, 65, not to_move.white_team)
         # Tell the piece to actually move

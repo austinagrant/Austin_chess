@@ -3,7 +3,7 @@ from move import Move
 import sys
 
 playing = True
-DEPTH = 6
+DEPTH = 4
 MOVES = 5
 
 

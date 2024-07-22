@@ -1,10 +1,11 @@
 # Move class
 import copy
 from typing import TYPE_CHECKING
+import dataclasses
 
 if TYPE_CHECKING:
     from piece import Piece
-
+@dataclasses.dataclass
 class Move():
     
     piece:'Piece'
